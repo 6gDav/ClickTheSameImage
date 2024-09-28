@@ -75,7 +75,7 @@ class GemLogic {
             const chosenSvg = this.svgImagesList[Math.floor(Math.random() * this.svgImagesList.length)];
             for (let j = 0; j < 2; j++) {
                 const imageEl = document.createElement('img');
-                imageEl.src = `../svgs/${chosenSvg}.svg`;
+                imageEl.src = `./svgs/${chosenSvg}.svg`;
                 imageEl.alt = chosenSvg;
                 const chosenButton = this.buttonElementsList[Math.floor(Math.random() * this.buttonElementsList.length)];
                 const chosenButtonEl = document.getElementById(chosenButton);
